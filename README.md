@@ -27,13 +27,13 @@ This documentation has been organized into focused modules for easy navigation:
 - Key features
 - Project status
 
-### 🏗️ [02_SYSTEM_ARCHITECTURE.md](02_SYSTEM_ARCHITECTURE.md)
+### 🏗️ [02_SYSTEM_ARCHITECTURE.md](refined_docs/02_SYSTEM_ARCHITECTURE.md)
 - High-level architecture diagram
 - Core component descriptions
 - Data flow overview
 - System layer breakdown
 
-### 🔄 [03_DATA_PIPELINE.md](03_DATA_PIPELINE.md)
+### 🔄 [03_DATA_PIPELINE.md](refined_docs/03_DATA_PIPELINE.md)
 - Input data format requirements (CORRECTED)
   - **3-LED mode:** (102, 128, 25, 3) - 25 scanning cycles ---cup size A,B,C
   - **5-LED mode:** (102, 128, 15, 5) - 15 scanning cycles ---cup size D or above
@@ -43,7 +43,7 @@ This documentation has been organized into focused modules for easy navigation:
 - Preprocessing methods reference (interpolation, denoising, normalization, enhancement)
 - Step-by-step preprocessing execution
 
-### ⚙️ [04_CONFIGURATION.md](04_CONFIGURATION.md)
+### ⚙️ [04_CONFIGURATION.md](refined_docs/04_CONFIGURATION.md)
 - Training configuration parameters
 - Network architecture settings
 - Data paths configuration
@@ -51,7 +51,7 @@ This documentation has been organized into focused modules for easy navigation:
 - Configuration best practices
 - Example configurations
 
-### 🧠 [05_MODEL_ARCHITECTURE.md](05_MODEL_ARCHITECTURE.md)
+### 🧠 [05_MODEL_ARCHITECTURE.md](refined_docs/05_MODEL_ARCHITECTURE.md)
 - Available model architectures
 - Base CNN-LSTM architecture flow (CORRECTED to 25 frames)
 - MIL variants (Instance, Bag, Hybrid)
@@ -60,7 +60,7 @@ This documentation has been organized into focused modules for easy navigation:
 - Model selection guide
 - Adding custom architectures
 
-### 🏋️ [06_TRAINING_PIPELINE.md](06_TRAINING_PIPELINE.md)
+### 🏋️ [06_TRAINING_PIPELINE.md](refined_docs/06_TRAINING_PIPELINE.md)
 - Training loop structure
 - Loss function, optimizer, and scheduler
 - Evaluation metrics (ACC, SEN, SPE, AUC, MCC)
@@ -70,7 +70,7 @@ This documentation has been organized into focused modules for easy navigation:
 - Hyperparameter search with Auto_train.py
 - Training best practices and troubleshooting
 
-### 🔧 [10_TALOS_OPTIMIZATION.md](10_TALOS_OPTIMIZATION.md) **✨ NEW**
+### 🔧 [10_TALOS_OPTIMIZATION.md](refined_docs/10_TALOS_OPTIMIZATION.md) **✨ NEW**
 - Automated hyperparameter optimization with Talos
 - Search space configuration (learning rate, batch size, model architecture)
 - Minimal and comprehensive search modes
@@ -78,7 +78,7 @@ This documentation has been organized into focused modules for easy navigation:
 - Integration with existing training pipeline
 - Performance tuning strategies
 
-### 🔍 [07_INFERENCE_EVALUATION.md](07_INFERENCE_EVALUATION.md)
+### 🔍 [07_INFERENCE_EVALUATION.md](refined_docs/07_INFERENCE_EVALUATION.md)
 - Model testing with pro.py
 - Threshold optimization with cutoff.py
 - Metrics calculation functions
@@ -87,7 +87,7 @@ This documentation has been organized into focused modules for easy navigation:
 - Performance analysis tools
 - Common evaluation issues
 
-### 💡 [08_USAGE_EXAMPLES.md](08_USAGE_EXAMPLES.md)
+### 💡 [08_USAGE_EXAMPLES.md](refined_docs/08_USAGE_EXAMPLES.md)
 - Complete training pipeline example
 - Preprocessing experiments
 - Model architecture comparison
@@ -97,7 +97,7 @@ This documentation has been organized into focused modules for easy navigation:
 - Common task recipes
 - Troubleshooting guide
 
-### 📚 [09_GLOSSARY_REFERENCES.md](09_GLOSSARY_REFERENCES.md)
+### 📚 [09_GLOSSARY_REFERENCES.md](refined_docs/09_GLOSSARY_REFERENCES.md)
 - Medical imaging terminology
 - Machine learning terms
 - Performance metrics definitions
@@ -108,10 +108,10 @@ This documentation has been organized into focused modules for easy navigation:
 - Scientific references
 
 ### ⚡ Quick Guides **✨ NEW**
-- **[TALOS_QUICKSTART.md](TALOS_QUICKSTART.md)** - 5-minute start guide for Talos optimization
-- **[TALOS_README.md](TALOS_README.md)** - Complete Talos feature overview
-- **[INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md)** - Quick installation and usage
-- **[TALOS_FEATURE_SUMMARY.md](TALOS_FEATURE_SUMMARY.md)** - Integration summary
+- **[TALOS_QUICKSTART.md](refined_docs/TALOS_QUICKSTART.md)** - 5-minute start guide for Talos optimization
+- **[TALOS_README.md](refined_docs/TALOS_README.md)** - Complete Talos feature overview
+- **[INSTALLATION_GUIDE.md](refined_docs/INSTALLATION_GUIDE.md)** - Quick installation and usage
+- **[TALOS_FEATURE_SUMMARY.md](refined_docs/TALOS_FEATURE_SUMMARY.md)** - Integration summary
 
 ---
 
@@ -204,7 +204,7 @@ python train_with_best_params.py --epochs 200
 
 **Expected improvements:** 5-25% better validation MCC
 
-📖 **See:** [TALOS_QUICKSTART.md](TALOS_QUICKSTART.md) for detailed guide
+📖 **See:** [TALOS_QUICKSTART.md](refined_docs/TALOS_QUICKSTART.md) for detailed guide
 
 ---
 
@@ -553,6 +553,6 @@ For detailed information on any topic, please refer to the corresponding numbere
 - **Expected Improvements** - 5-25% better validation MCC
 - **Time Savings** - 10-20x faster than manual tuning
 
-**Get Started:** [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) → [TALOS_QUICKSTART.md](TALOS_QUICKSTART.md)
+**Get Started:** [INSTALLATION_GUIDE.md](refined_docs/INSTALLATION_GUIDE.md) → [TALOS_QUICKSTART.md](refined_docs/TALOS_QUICKSTART.md)
 
 
