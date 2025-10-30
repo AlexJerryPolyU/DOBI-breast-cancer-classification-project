@@ -10,6 +10,8 @@ This deep learning framework facilitates fNIR (functional Near-Infrared Spectros
 
 Following the bankruptcy of Zhejiang Dolby Medical Technology Co., Ltd. (Subsidiary of DOBI Medical International, Inc.) in China, this codebase has been open-sourced to advance research and applications in Diffuse Optical Imaging (DOI).
 
+**Note:** For data privacy reasons, this repository does not include sample datasets for testing. Users are encouraged to source their own compliant data for model evaluation and fine-tuning.
+
 **Further Reading:**
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC3467859/
 - https://www.sciencedirect.com/science/article/pii/S1687850725000408
@@ -554,6 +556,7 @@ For detailed information on any topic, please refer to the corresponding numbere
 - **Time Savings** - 10-20x faster than manual tuning
 
 **Get Started:** [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) → [TALOS_QUICKSTART.md](TALOS_QUICKSTART.md)
+
 
 
 
