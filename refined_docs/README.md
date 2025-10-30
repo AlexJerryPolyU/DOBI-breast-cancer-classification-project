@@ -4,7 +4,7 @@
 
 This deep learning framework facilitates fNIR (functional Near-Infrared Spectroscopy) medical imaging analysis using Diffuse Optical Imaging via hybrid CNN-LSTM architectures. The system processes 4D medical imaging data in .mat format to enable binary classification tasks—specifically differentiating benign from malignant breast cancer diagnostics. 
 
-![Alt text](https://raw.githubusercontent.com/username/repo/main/your-image.png)
+![Alt text]([https://raw.githubusercontent.com/username/repo/main/your-image.png](https://github.com/AlexJerryPolyU/DOBI-breast-cancer-classification-project/blob/main/refined_docs/DOBI%20image%20theory%20in%20one%20page.png))
 
 **Classification Criteria:** Cases with a BI-RADS score greater than 4a are classified as malignant; all others as benign.
 
@@ -554,4 +554,5 @@ For detailed information on any topic, please refer to the corresponding numbere
 - **Time Savings** - 10-20x faster than manual tuning
 
 **Get Started:** [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) → [TALOS_QUICKSTART.md](TALOS_QUICKSTART.md)
+
 
