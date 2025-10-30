@@ -20,7 +20,7 @@ Following the bankruptcy of Zhejiang Dolby Medical Technology Co., Ltd. (Subsidi
 
 This documentation has been organized into focused modules for easy navigation:
 
-### 📘 [01_PROJECT_OVERVIEW.md](01_PROJECT_OVERVIEW.md)
+### 📘 [01_PROJECT_OVERVIEW.md](refined_docs/01_PROJECT_OVERVIEW.md)
 - Project description and background
 - Basic imaging procedure
 - Data format specifications (3-LED and 5-LED modes)
