@@ -1,4 +1,4 @@
-# fNIR Base Model - Project Overview
+# DOBI (Dynamic optical breast imaging) image Classification Model - Project Overview
 
 ## Project Description
 
@@ -55,3 +55,4 @@ Where:
 **Status:** Active Development  
 **Last Updated:** 2025-04-01  
 **Documentation Refined:** 2025-10-30
+
