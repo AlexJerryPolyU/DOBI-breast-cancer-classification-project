@@ -1,0 +1,314 @@
+# configs.yml
+# phase2
+configs:
+  - name: config1
+    variable_name: "fNIR"
+    normalize: 0
+    data: "phase2"
+    aggregation_method: "mean"
+    weights_path: "epoch/epoch_078.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: false
+      model_module: "model"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params: {}
+
+  - name: config2
+    variable_name: "fNIR"
+    normalize: 0
+    data: "phase2"
+    aggregation_method: "max"
+    weights_path: "epoch/epoch_096.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: false
+      model_module: "model"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params: {}
+
+  - name: config3
+    variable_name: "fNIR"
+    normalize: 0
+    data: "phase2"
+    aggregation_method: "std"
+    weights_path: "epoch/epoch_077_std.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: false
+      model_module: "model"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params: {}
+
+  - name: config4
+    variable_name: "fNIR"
+    normalize: 0
+    data: "phase2"
+    aggregation_method: "sum"
+    weights_path: "epoch/epoch_094.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: false
+      model_module: "model"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params: {}
+
+  - name: config5
+    variable_name: "dNIR"
+    normalize: 0
+    data: "phase2"
+    aggregation_method: "min"
+    weights_path: "epoch/epoch_077_min.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: false
+      model_module: "model"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params: {}
+
+  - name: config6
+    variable_name: "dNIR"
+    normalize: 0
+    data: "phase2"
+    aggregation_method: "mean"
+    weights_path: "epoch/epoch_415.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: false
+      model_module: "model"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params: {}
+
+  - name: config7
+    variable_name: "dNIR"
+    normalize: 0
+    data: "phase2"
+    aggregation_method: "max"
+    weights_path: "epoch/epoch_383.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: false
+      model_module: "model"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params: {}
+
+  - name: config8
+    variable_name: "dNIR"
+    normalize: 0
+    data: "phase2"
+    aggregation_method: "std"
+    weights_path: "epoch/epoch_320.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: false
+      model_module: "model"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params: {}
+
+  - name: config9
+    variable_name: "dNIR"
+    normalize: 0
+    data: "phase2"
+    aggregation_method: "sum"
+    weights_path: "epoch/epoch_119.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: false
+      model_module: "model"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params: {}
+  - name: config10
+    variable_name: "dNIR"
+    normalize: 2
+    data: "phase2"
+    aggregation_method: "min"
+    weights_path: "epoch/epoch_452.pth"
+    model_params:
+      use_conv1to3: true
+      use_attention: false
+      model_module: "model"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params: {}
+
+# phase1
+  - name: config11
+    variable_name: "fNIR"
+    normalize: 2
+    data: "phase1"
+    aggregation_method: "min"
+    weights_path: "epoch/epoch_028.pth"
+    model_params:
+      use_conv1to3: true
+      use_attention: false
+      model_module: "model"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 1
+      extra_params: {}
+
+  - name: config12
+    variable_name: "fNIR"
+    normalize: 2
+    data: "phase1"
+    aggregation_method: "min"
+    weights_path: "epoch/epoch_026.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: true
+      model_module: "model"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params: {}
+
+  - name: config13
+    variable_name: "fNIR"
+    normalize: 2
+    data: "phase1"
+    aggregation_method: "min"
+    weights_path: "epoch/epoch_024.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: true
+      model_module: "lstm_mil"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params:
+        mil_type: 2
+
+  - name: config14
+    variable_name: "fNIR"
+    normalize: 0
+    data: "phase1"
+    aggregation_method: "min"
+    weights_path: "epoch/epoch_032.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: false
+      model_module: "lstm_mil"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params:
+        mil_type: 2
+
+  - name: config15
+    variable_name: "fNIR"
+    normalize: 2
+    data: "phase1"
+    aggregation_method: "min"
+    weights_path: "epoch/epoch_091.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: true
+      model_module: "cnn_mil"
+      model_class: "CNNLSTMNetMILins"
+      cnn_input_channels: 3
+      extra_params: {}
+
+  - name: config16
+    variable_name: "fNIR"
+    normalize: 2
+    data: "phase1"
+    aggregation_method: "min"
+    weights_path: "epoch/epoch_117.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: false
+      model_module: "cnn_mil"
+      model_class: "CNNLSTMNetMILins"
+      cnn_input_channels: 3
+      extra_params: {}
+
+  - name: config17
+    variable_name: "fNIR"
+    normalize: 2
+    data: "phase1"
+    aggregation_method: "min"
+    weights_path: "epoch/epoch_030.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: false
+      model_module: "lstm_mil"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params:
+        mil_type: 3
+
+  - name: config18
+    variable_name: "fNIR"
+    normalize: 0
+    data: "phase1"
+    aggregation_method: "min"
+    weights_path: "epoch/epoch_021.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: true
+      model_module: "lstm_mil"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params:
+        mil_type: 3
+
+  - name: config19
+    variable_name: "fNIR"
+    normalize: 0
+    data: "phase1"
+    aggregation_method: "min"
+    weights_path: "epoch/epoch_035.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: true
+      model_module: "lambda_net"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params: {}
+
+  - name: config20
+    variable_name: "fNIR"
+    normalize: 2
+    data: "phase1"
+    aggregation_method: "min"
+    weights_path: "epoch/epoch_023.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: true
+      model_module: "lambda_net"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params: {}
+
+  - name: config21
+    variable_name: "fNIR"
+    normalize: 0
+    data: "phase1"
+    aggregation_method: "min"
+    weights_path: "epoch/epoch_035.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: false
+      model_module: "lambda_net"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params: {}
+
+  - name: config22
+    variable_name: "fNIR"
+    normalize: 2
+    data: "phase1"
+    aggregation_method: "min"
+    weights_path: "epoch/epoch_023.pth"
+    model_params:
+      use_conv1to3: false
+      use_attention: false
+      model_module: "lambda_net"
+      model_class: "CNNLSTMNet"
+      cnn_input_channels: 3
+      extra_params: {}

@@ -1,0 +1,70 @@
+# Core PyTorch and Deep Learning
+torch==2.5.0
+torchvision==0.20.0
+torchaudio==2.5.0
+
+# Data Processing and Analysis
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+scipy==1.14.1
+
+# Image Processing
+opencv-python==4.10.0.84
+pillow
+scikit-image==0.24.0
+SimpleITK==2.4.0
+
+# Visualization
+matplotlib==3.9.3
+seaborn==0.13.2
+
+# Neural Network Components
+einops==0.8.1
+lambda-networks==0.4.0
+ncps==1.0.1
+fightingcv-attention==1.0.0
+
+# Signal Processing
+PyWavelets==1.8.0
+EMD-signal==1.6.4
+stockwell==1.2
+tftb==0.2.0
+
+# Hyperparameter Optimization
+talos
+
+# Utilities
+tqdm==4.67.1
+openpyxl==3.1.5
+pyyaml
+joblib==1.4.2
+
+# Transformers (for advanced models)
+transformers==4.47.1
+tokenizers==0.21.0
+huggingface-hub==0.27.0
+safetensors==0.4.5
+
+# Additional Dependencies
+h5py==3.13.0
+dill==0.3.9
+multiprocess==0.70.17
+pathos==0.3.3
+pox==0.3.5
+ppft==1.7.6.9
+regex==2024.11.6
+requests
+colorama==0.4.6
+setuptools==75.6.0
+wheel==0.45.1
+
+# File I/O
+xlrd==2.0.1
+xlwt==1.3.0
+tifffile==2024.9.20
+imageio==2.36.1
+
+# Network and Math
+networkx
+sympy==1.13.1

@@ -1,0 +1,73 @@
+{
+    "model.CNNLSTMNet": {
+    },
+
+    "model.CNNGRU": {
+    },
+
+    "model.CNNTransformer": {
+        "nhead": 8,
+        "dim_feedforward": 2048
+    },
+
+    "time_mil.CNNLSTMNet": {
+        "wavelet_type": "mexican_hat",
+        "wavelet_kernel_size": 1,
+        "num_wavelets": 2,
+        "multi_scale": 2,
+        "use_fourier": false
+    },
+
+    "time_mil_new.CNNLSTMNet": {
+        "wavelet_type": "mexican_hat",
+        "wavelet_kernel_size": 1,
+        "num_wavelets": 2,
+        "multi_scale": 2,
+        "use_fourier": false,
+        "num_layers": 2
+    },
+
+
+    "lstm_attention.CNNLSTMNet": {
+        "attention_type": 0
+    },
+
+    "LNN.CNNLNNNet": {
+        "use_cfc": true
+        },
+
+    "lstm_mil.CNNLSTMNet": {
+        "mil_type": 2
+        },
+
+    "lambda_lstm_mil.CNNLSTMNet": {
+        "mil_type": 2
+        },
+
+    "cnn_mil.CNNLSTMNetMILins": {
+
+    },
+
+    "cnn_mil.CNNLSTMNetMILbag": {
+
+    },
+
+    "cnn_mil.CNNLSTMNetMILbagins": {
+
+    }
+    ,
+    "lambda_cnn_mil.CNNLSTMNetMILins": {
+
+    },
+
+    "lambda_cnn_mil.CNNLSTMNetMILbag": {
+
+    },
+
+    "lambda_cnn_mil.CNNLSTMNetMILbagins": {
+
+    },
+
+    "lambda_net.CNNLSTMNet": {
+    }
+}
