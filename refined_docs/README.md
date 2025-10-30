@@ -8,8 +8,6 @@ This deep learning framework facilitates fNIR (functional Near-Infrared Spectros
 
 **Classification Criteria:** Cases with a BI-RADS score greater than 4a are classified as malignant; all others as benign.
 
-Following the bankruptcy of Zhejiang Dolby Medical Technology Co., Ltd. (Subsidiary of DOBI Medical International, Inc.) in China, this codebase has been open-sourced to advance research and applications in Diffuse Optical Imaging (DOI).
-
 **Note:** For data privacy reasons, this repository does not include sample datasets for testing. Users are encouraged to source their own compliant data for model evaluation and fine-tuning.
 
 **Further Reading of DOBI image:**
@@ -557,6 +555,7 @@ For detailed information on any topic, please refer to the corresponding numbere
 - **Time Savings** - 10-20x faster than manual tuning
 
 **Get Started:** [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) → [TALOS_QUICKSTART.md](TALOS_QUICKSTART.md)
+
 
 
 
