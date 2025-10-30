@@ -12,9 +12,10 @@ Following the bankruptcy of Zhejiang Dolby Medical Technology Co., Ltd. (Subsidi
 
 **Note:** For data privacy reasons, this repository does not include sample datasets for testing. Users are encouraged to source their own compliant data for model evaluation and fine-tuning.
 
-**Further Reading:**
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC3467859/
-- https://www.sciencedirect.com/science/article/pii/S1687850725000408
+**Further Reading of DOBI image:**
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3467859/  (Frattini, V., Ghisoni, L. and Teodoro, A., 2011. Clinical approach with optical imaging instrument. Perspective analysis on 617 young females. It. J. Gynaecol. Obstet, 23(2/3), pp.101-106.)
+- https://eurradiolexp.springeropen.com/articles/10.1186/s41747-018-0038-5  (Hu, T., Chen, J., Qiao, L. and Gu, Y., 2025. Validity of dynamic optical breast imaging (DOBI) in diagnosis of malignant features of breast cancer. Journal of Radiation Research and Applied Sciences, 18(2), p.101328.)
+- https://www.sciencedirect.com/science/article/pii/S1687850725000408  (Petrillo, A., Catalano, O., Fusco, R., Filice, S., Vallone, P., Setola, S., Granata, V., Raiano, C., Avino, F., Di Bonito, M. and Botti, G., 2018. Optical imaging of the breast: evaluation of deoxyhemoglobin concentration alteration in 166 patients with suspicious breast lesions. European Radiology Experimental, 2(1), p.8.)
 
 ---
 
@@ -556,6 +557,7 @@ For detailed information on any topic, please refer to the corresponding numbere
 - **Time Savings** - 10-20x faster than manual tuning
 
 **Get Started:** [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) → [TALOS_QUICKSTART.md](TALOS_QUICKSTART.md)
+
 
 
 
