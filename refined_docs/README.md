@@ -314,21 +314,21 @@ Where:
 │       ├──lstm_attention.py            # LSTM Attention mechanisms
 │       ├──Attention.py                 # Different attention for 2dCNN (e.g SE-blocks)
 │
-├── dataset/                         # Data preprocessing
-│   ├── config_data.py               # Data configuration
-│   ├── data_npy.py                  # Main preprocessing script
-│   └── image_processing.py          # Image transformations
+│   ├── dataset/                         # Data preprocessing
+│       ├── config_data.py               # Data configuration
+│       ├── data_npy.py                  # Main preprocessing script
+│       ├── image_processing.py          # Image transformations
 │
-├── unit/                            # Utility functions
-│   └── metrics.py                   # Metrics calculation
+│   ├── unit/                            # Utility functions
+│       ├── metrics.py                   # Metrics calculation
 │
-├── data/                            # Data directory (not in repo)
-│   ├── excel/
-│   │   └── phase1exp.xlsx
-│   ├── source data/
-│   └── npy/
+│   ├── data/                            # Data directory (not in repo)
+│       ├── excel/
+│           └── phase1exp.xlsx
+│       ├── source data/
+│       └── npy/
 │
-└── weights/                         # Model checkpoints (generated)
+│   ├── weights/                         # Model checkpoints (generated)
 ```
 
 ---
@@ -557,6 +557,7 @@ For detailed information on any topic, please refer to the corresponding numbere
 - **Time Savings** - 10-20x faster than manual tuning
 
 **Get Started:** [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) → [TALOS_QUICKSTART.md](TALOS_QUICKSTART.md)
+
 
 
 
