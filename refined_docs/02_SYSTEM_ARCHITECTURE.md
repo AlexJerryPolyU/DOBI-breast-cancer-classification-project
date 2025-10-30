@@ -43,6 +43,7 @@
 │  • Model checkpoints (.pth)  • Metrics Excel  • Predictions     │
 └─────────────────────────────────────────────────────────────────┘
 ```
+![Alt text](https://github.com/AlexJerryPolyU/DOBI-breast-cancer-classification-project/blob/main/refined_docs/DOBI%20image%20classification%20algorithm%20design%20in%20one%20page.png)
 
 ## Core Components
 
@@ -72,3 +73,4 @@
 - Model checkpoint management
 - Excel-based metrics reporting
 - Prediction result storage
+
